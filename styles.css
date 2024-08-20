@@ -1,0 +1,196 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  color: black;
+  font-family: "Lexend", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.count-down {
+  background-color: #020544;
+  height: 51px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.top-bar {
+  text-align: center;
+  color: #ffff;
+}
+.main-menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.main-menu > h1 {
+  font-size: 48px;
+  color: #b4a527;
+}
+nav ul li {
+  display: inline;
+  color: 020544;
+  list-style: none;
+  padding: 20px;
+
+  text-align: center;
+}
+a {
+  text-decoration: none;
+  font-size: 16px;
+}
+a:hover {
+  border-bottom: 5px solid #b4a527;
+}
+
+.hero {
+  height: auto;
+  border-bottom: 30px solid #b4a527;
+}
+.hero-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.hero-content h3 {
+  font-size: 36px;
+  color: #b4a527;
+}
+.hero-content h1 {
+  font-size: 80px;
+  color: 020544;
+}
+
+.hero-content button{
+  background-color: #000435;
+  margin-top: 20%;
+  padding: 4% 10%;
+  font-weight: 600;
+}
+.hero-content p {
+  font-size: 32px;
+  color: #b4a527;
+  font-weight: 600;
+  line-height: 2;
+}
+.center {
+  text-align: center;
+}
+
+.how-we-met {
+  height: auto;
+  background-color: #000435;
+  text-align: center;
+  padding-top: 5%;
+}
+.how-we-met h3 {
+  color: #ffff;
+  font-size: 24px;
+  font-weight: 400;
+  opacity: 0.6;
+  line-height: 2;
+}
+.how-we-met h1 {
+  color: #b4a527;
+  font-size: 40px;
+  font-weight: 400;
+}
+
+.how-we-met-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5%;
+  padding: 0 12%;
+}
+.how-we-met-content {
+  width: 30%;
+}
+
+.how-we-met-content p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 2;
+  color: #ffff;
+  opacity: 0.4;
+}
+.how-we-met-content img {
+  width: 359px;
+  margin-top: 8%;
+}
+.proposal {
+  height: auto;
+  text-align: center;
+  padding: 5% 0;
+}
+.proposal h1 {
+  font-size: 40px;
+  font-weight: 600;
+  color: #000435;
+}
+.proposal h3 {
+  font-size: 24px;
+  font-weight: 400;
+  opacity: 0.6;
+  color: #b4a527;
+  line-height: 2;
+}
+.proposal-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5%;
+  padding: 0 15%;
+}
+.proposal-content {
+  width: 40%;
+  margin: 5%;
+  line-height: 2;
+}
+
+.proposal-content p {
+  color: black;
+  opacity: 0.5;
+  font-size: 18px;
+}
+
+.bottom {
+  height: auto;
+  color: #ffff;
+  text-align: center;
+  background-color: #000435;
+  padding: 5% 0;
+}
+.bottom p {
+  line-height: 5;
+}
+.bottom-content {
+  margin-bottom: 4%;
+}
+.bottom-content hr{
+    width: 4%;
+  margin: 1% auto;
+  border: 2px solid #b4a527;
+}
+
+button {
+  background-color: #b4a527;
+  color: #ffff;
+  font-size: 18px;
+  padding: 10px 30px;
+  border: none;
+  border-radius: 50px;
+}
+
+hr {
+  /* opacity: 0.5; */
+  width: 70%;
+  margin: 5% auto;
+  border: 1px solid #b4a527;
+}
