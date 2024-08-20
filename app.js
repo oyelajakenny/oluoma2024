@@ -12,11 +12,6 @@ const x = setInterval(function () {
 
   document.getElementById("countDown").innerText = 
     `Event in ${days}d : ${hours}h : ${minutes}m : ${seconds}s `;
-  if (distance < 0) {
-    clearInterval(x);
-    document.getElementById("countDown").innerText = `It's Your Day Hussein!!!`; // /
+ 
     
-   
-   
-  }
 }, 1000); // This function will run every second

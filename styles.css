@@ -183,6 +183,9 @@ a:visited{
 .bottom-content {
   margin-bottom: 4%;
 }
+.bottom-content h3{
+  font-size: 30px;
+}
 .bottom-content hr{
     width: 4%;
   margin: 1% auto;
