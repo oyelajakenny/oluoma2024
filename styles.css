@@ -45,10 +45,17 @@ a {
   text-decoration: none;
   font-size: 16px;
 }
+a:active{
+    border-bottom: 5px solid #b4a527;
+}
+
 a:hover {
   border-bottom: 5px solid #b4a527;
 }
+a:visited{
 
+    color: #000435;
+}
 .hero {
   height: auto;
   border-bottom: 30px solid #b4a527;
@@ -123,6 +130,9 @@ a:hover {
 .how-we-met-content img {
   width: 359px;
   margin-top: 8%;
+}
+.first{
+    margin-top: -4%;
 }
 .proposal {
   height: auto;
