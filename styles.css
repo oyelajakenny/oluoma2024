@@ -89,7 +89,12 @@ a:visited{
 .center {
   text-align: center;
 }
-
+.m-hr {
+  /* opacity: 0.5; */
+  width: 5%;
+  margin: 1% auto;
+  border: 2px solid #b4a527;
+}
 .how-we-met {
   height: auto;
   background-color: #000435;
@@ -206,4 +211,86 @@ hr {
   width: 70%;
   margin: 5% auto;
   border: 1px solid #b4a527;
+}
+
+@media screen and (max-width: 480px) {
+   nav {
+    display: none;
+  }
+  .hero {
+  height: auto;
+  background-color: #000435;
+  border-bottom: 30px solid #b4a527;
+  background-image: url(./images/left.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding: 20% 0 5%;
+
+  
+}
+  .hero-container {
+ margin: 5%;
+}
+  .right, .left{
+    display: none;
+  }
+  .hero-content{
+    width: 100%;
+    background-color: #000435;
+    padding: 5% 1%;
+    border: 1px solid #b4a527;
+  
+    border-radius: 5%;
+    /* opacity: 0.6; */
+  }
+  .hero-content h3 {
+  font-size: 25px;
+  color: #b4a527;
+}
+.hero-content h1 {
+  font-size: 50px;
+  color: #ffff;
+}
+
+.hero-content button{
+  background-color: #b4a527;
+  margin-top: 5%;
+  padding: 4% 10%;
+  font-weight: 600;
+}
+.hero-content p {
+  font-size: 32px;
+  color: #b4a527;
+  font-weight: 600;
+  line-height: 2;
+}
+  .main-menu {
+  display: flex;
+  justify-content: space-between;
+ align-items: center;
+}
+.main-menu > h1 {
+  font-size: 30px;
+  color: #b4a527;
+}
+  .how-we-met-container {
+  display: flex;
+  flex-direction: column;
+ 
+}
+.how-we-met-content {
+  width: 100%;
+}
+.proposal-container {
+  display: flex;
+  flex-direction: column;
+}
+.proposal-content {
+  width: 100%;
+  line-height: 2;
+}
+.proposal img{
+
+  width: 100%;
+}
 }
