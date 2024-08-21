@@ -166,13 +166,14 @@ a:visited{
 .proposal-content {
   width: 40%;
   margin: 5%;
-  line-height: 2;
+  
 }
 
 .proposal-content p {
   color: black;
   opacity: 0.5;
   font-size: 18px;
+  line-height: 2;
 }
 
 .bottom {
@@ -273,9 +274,42 @@ hr {
   font-size: 30px;
   color: #b4a527;
 }
+.how-we-met h3 {
+  color: #ffff;
+  font-size: 24px;
+  font-weight: 400;
+  opacity: 0.6;
+  line-height: 2;
+}
+.how-we-met h1 {
+  color: #b4a527;
+  font-size: 30px;
+  font-weight: 400;
+   opacity: 0.8;
+}
+
+/* .how-we-met-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5%;
+ 
+} */
+.how-we-met-content {
+  width: 30%;
+}
+
+.how-we-met-content p {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 2;
+  color: #ffff;
+  opacity: 0.4;
+}
   .how-we-met-container {
   display: flex;
   flex-direction: column;
+   padding: 0 5%;
  
 }
 .how-we-met-content {
@@ -283,8 +317,11 @@ hr {
 }
 .proposal-container {
   display: flex;
-  flex-direction: column;
+flex-direction: column;
+  margin-top: 5%;
+  padding: 0 5%;
 }
+
 .proposal-content {
   width: 100%;
   line-height: 2;
@@ -292,5 +329,23 @@ hr {
 .proposal img{
 
   width: 100%;
+}
+.proposal-content p {
+  color: black;
+  opacity: 0.5;
+  font-size: 16px;
+  line-height: 1.6;
+}
+.bottom{
+  padding:2% 3%
+}
+.bottom p {
+  line-height: 2;
+}
+.bottom-content {
+  margin-bottom: 4%;
+}
+.bottom-content h3{
+  font-size: 25px;
 }
 }
