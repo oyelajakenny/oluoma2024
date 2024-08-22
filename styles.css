@@ -57,6 +57,9 @@ a:visited{
 
     color: #000435;
 }
+.a-btn:hover{
+  border-bottom: none;
+}
 .hero {
   height: auto;
   border-bottom: 30px solid #b4a527;
