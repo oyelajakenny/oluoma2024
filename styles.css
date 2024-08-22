@@ -362,5 +362,6 @@ flex-direction: column;
 .bottom-content h3{
   font-size: 20px;
   line-height: 2;
+  opacity: 0.5;
 }
 }
