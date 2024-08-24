@@ -185,6 +185,19 @@ a:visited{
   line-height: 2;
 }
 
+.gallery{
+    height: auto;
+}
+
+.gallery-container {
+  display: flex;
+}
+.gallery-content{
+    width: 20%;
+}
+.gallery-content img{
+    width: 100%;
+}
 .bottom {
   height: auto;
   color: #ffff;
@@ -349,6 +362,16 @@ flex-direction: column;
   opacity: 0.5;
   font-size: 16px;
   line-height: 1.6;
+}
+.gallery-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.gallery-content{
+    width: 50%;
+}
+.gallery-content img{
+    width: 100%;
 }
 .bottom{
   padding:2% 3%
